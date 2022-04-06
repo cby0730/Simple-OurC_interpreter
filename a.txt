@@ -1,0 +1,61 @@
+1
+a := 6 + -9.3 + 3.1 * 9 +2--2-+6.1;             // 22.500
+ ( 1 / 10000000 );                              // 0
+b := 3.3+6.1/2;                                 // 6.350
+c := -a;                                        // Unexpected token : 'a'
+2*c+++1.1;                                      // Undefined identifier : 'c'
+2*-c;                                           // Unexpected token : 'c'
+( 0.001 ) < (0.001 );                           // false
+( 0.000001 ) < ( 0.000002 ) ;                   // true // false
+( 0.1 ) <= ( 0.1 );                             // true
+0.0011 = 0.0012;                                // false //
+0.0011 <> 0.0012;                               // true //
+0.00001 = 0.00009;                              // true
+.3;                                             // 0.300
+1.;                                             // 1.000
+.;                                              // Unrecognized token with first char : '.'
+..;                                             // Unrecognized token with first char : '.'
+-.3;                                            // -0.300
++1.;                                            // 1.000
++-1.0;                                          // Unexpected token : '-'
+++1.0;                                          // Unexpected token : '+'
+a*b*8;                                          // 1143.000
+a*b+8;                                          // 150.875
+ ( 1.0 / 10000000 );                            // 0.000
+ a*b;                                           // 142.875
+ -8.1*a*b;                                      // -1157.288
+ 3.98.66.3;                                     // Unexpected token : '.66'
+ 3.98+-.66--.3;                                 // 3.620
+ _ = 1;                                         // Unrecognized token with first char : '_'
+ asd := 56146 // sd                             // 18715
+ /3 //fg
+  //d 
+  ; a+1;                                        // 23.500
+  f                                             // Undefined identifier : 'f'
+ ;
+ asd;                                           // 18715
+ 2 + $$ - 5                                     // Unrecognized token with first char : '$'
+2 + * + 5 + 8                                   // Unexpected token : '*'
+1 @ # ;                                         // Unrecognized token with first char : '@'
+a:=3+(quit*5);                                  // Undefined identifier : 'quit'
+a:=3.4.5+(4*5);                                 // Unexpected token : '.5'
+1/0;                                            // Error
+a+b / 2.0*1                                     // 25.675
+;
+1+-a;                                           // Unexpected token : 'a'
+1 / - // asd                                    // Unexpected token : '-'
+    // d    2   ;
+    - 1
+    //a;
+    ;                                           // Unexpected token : ';'
+    a*b+8.8+a*b+a-a-a/a*13.3/7+3;               // 295.650
+a >> 1 ;					// Unexpected token : '>'
+a << 2 ;					// Unexpected token : '<'
+1/ 0.0 ;					// Error
+a == 1 ;					// Unexpected token : '='
+G := 1 ;					// 1
+G = 0. 123 ;					// Unexpected token : '123'
+G := .234 ;					// 0.234
+G = a ;						// false
+5/2 ;						// 2.5
+quit:=5;
