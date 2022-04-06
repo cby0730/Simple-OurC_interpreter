@@ -1,4 +1,4 @@
-# Simple-OurCinterpreter
+# Simple-OurC-interpreter
 
 ## Introduction.  
 
